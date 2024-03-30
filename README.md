@@ -20,11 +20,11 @@
 
 ### Desktop <a name="desktop-screenshot"></a>
 
-<img src="https://github.com/younessbennaj/business-blog-card/assets/18486062/4788c604-2bd2-4df0-b4c3-c5da6cd2cf97" alt="image" height="auto">
+<img src="https://github.com/younessbennaj/testimonial-page/assets/18486062/472e823c-5c14-4e03-ab11-86ac0cf77f0a" alt="image" height="auto">
 
 ### Mobile <a name="mobile-screenshot"></a>
 
-<img src="https://github.com/younessbennaj/business-blog-card/assets/18486062/10ac2d6a-2fdc-4454-a762-56567482347a" alt="image" width="300" height="auto">
+<img src="https://github.com/younessbennaj/testimonial-page/assets/18486062/fa553757-7e7b-4016-a57c-c04cbf461dfb" alt="image" width="300" height="auto">
 
 ### Built With
 
