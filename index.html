@@ -1,76 +1,95 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400&display=swap" rel="stylesheet">
-  <title>Testimonial Page</title>
-</head>
-<body>
-  <div class="grid">
-    <div class="column">
-      <div class="label-icon">
-        <span class="icon">⭐️</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400&display=swap"
+      rel="stylesheet"
+    />
+    <title>Testimonial Page</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="layout">
+        <div class="layout__column">
+          <div class="testimonial-section__label-icon">
+            <span class="icon">⭐️</span>
+          </div>
+          <h2 class="testimonial-section__title">Reviewers</h2>
+          <p class="testimonial-section__body">
+            Reviewers is where people can access guidelines, checklists, and
+            other tools to assist them in reviewing papers or manuscripts. It
+            provides a structured approach to ensure that the review process is
+            thorough, efficient, and consistent.
+          </p>
+          <ul class="testimonial-section__checklist">
+            <li class="testimonial-section__checklist-item">
+              <img src="images/Done_ring_round_fill.svg" alt="" />
+              <span>Checklist to Review an Academic Paper</span>
+            </li>
+            <li class="testimonial-section__checklist-item">
+              <img src="images/Done_ring_round_fill.svg" alt="" />
+              <span>Peer Review Checklist</span>
+            </li>
+            <li class="testimonial-section__checklist-item">
+              <img src="images/Done_ring_round_fill.svg" alt="" />
+              <span
+                >Checklist for Editors, Reviewers, and Authors of SPIE
+                Journals</span
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="testimonial-card layout__testimonial-card-google">
+          <div class="testimonial-card__header">
+            <img
+              class="testimonial-card__logo"
+              src="images/google-testimonial.png"
+              alt=""
+            />
+            <div class="rating">
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img
+                class="rating__icon"
+                src="images/Star_fill_gray.svg"
+                alt=""
+              />
+            </div>
+          </div>
+          <h4 class="testimonial-card__author">Samantha Lee</h4>
+          <p class="testimonial-card__body">
+            The checklist ensures that the review process is thorough
+          </p>
+        </div>
+        <div class="testimonial-card layout__testimonial-card-meta">
+          <div class="testimonial-card__header">
+            <img
+              class="testimonial-card__logo"
+              src="images/meta-testimonial.png"
+              alt=""
+            />
+            <div class="rating">
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+              <img class="rating__icon" src="images/Star_fill.svg" alt="" />
+            </div>
+          </div>
+          <h4 class="testimonial-card__author">Rachel Patel</h4>
+          <p class="testimonial-card__body">
+            I highly recommend the Writecream Business Description
+          </p>
+        </div>
       </div>
-      <h2 class="title">Reviewers</h2>
-      <p class="body">Reviewers is where people can access guidelines, checklists, and other tools to assist them in reviewing papers or manuscripts. It provides a structured approach to ensure that the review process is thorough, efficient, and consistent.</p>
-      <ul class="checklist">
-        <li>
-          <div class="checklist-item">
-            <img src="images/Done_ring_round_fill.svg" alt="">
-            <span>Checklist to Review an Academic Paper</span>
-          </div>
-        </li>
-        <li>
-          <div class="checklist-item">
-            <img src="images/Done_ring_round_fill.svg" alt="">
-            <span>Peer Review Checklist</span>
-          </div>
-        </li>
-        <li>
-          <div class="checklist-item">
-            <img src="images/Done_ring_round_fill.svg" alt="">
-            <span>Checklist for Editors, Reviewers, and Authors of SPIE Journals</span>
-          </div>
-        </li>
-      </ul>
     </div>
-      <div class="testimonial-card card-1">
-        <div class="testimonial-card-header">
-          <img class="testimonial-card-header-image" src="images/google-testimonial.png" alt="">
-          <div class="testimonial-card-rating">
-            <img class="rating-star" src="images/Star_fill.svg" alt="">
-            <img class="rating-star" src="images/Star_fill.svg" alt="">
-            <img class="rating-star" src="images/Star_fill.svg" alt="">
-            <img class="rating-star" src="images/Star_fill.svg" alt="">
-            <img class="rating-star" src="images/Star_fill_gray.svg" alt="">
-        </div>
-        </div>
-        <h4 class="testimonial-author">
-          Samantha Lee
-        </h4>
-        <p class="testimonial-body">The checklist ensures that the review process is thorough</p>
-      </div>
-      <div class="testimonial-card card-2">
-        <div class="testimonial-card-header">
-          <img class="testimonial-card-header-image" src="images/meta-testimonial.png" alt="">
-          <div class="testimonial-card-rating">
-              <img class="rating-star" src="images/Star_fill.svg" alt="">
-              <img class="rating-star" src="images/Star_fill.svg" alt="">
-              <img class="rating-star" src="images/Star_fill.svg" alt="">
-              <img class="rating-star" src="images/Star_fill.svg" alt="">
-              <img class="rating-star" src="images/Star_fill.svg" alt="">
-          </div>
-        </div>
-        <h4 class="testimonial-author">
-          Rachel Patel
-        </h4>
-        <p class="testimonial-body">I highly recommend the Writecream Business Description</p>
-      </div>
-  </div>
-</body>
-<script src="script.js"></script>
+  </body>
+  <script src="script.js"></script>
 </html>
